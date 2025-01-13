@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tab2SocketClient</class>
+ <widget class="QWidget" name="Tab2SocketClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,8,1">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="8,0">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>수신 데이터</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pPBrecvDataClear">
+       <property name="text">
+        <string>수신 삭제</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QTextEdit" name="pTErecvData"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="3,6,1">
+     <item>
+      <widget class="QLineEdit" name="pLErecvId"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="pLEsendData"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pPBsendButton">
+       <property name="text">
+        <string>송신</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

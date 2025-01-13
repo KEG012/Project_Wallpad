@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/Image">
+        <file>Image/background.jpg</file>
+        <file>Image/clock.png</file>
+        <file>Image/display.jpg</file>
+        <file>Image/light_off.png</file>
+        <file>Image/light_on.png</file>
+        <file>Image/message.png</file>
+        <file>Image/moongsil.jpg</file>
+        <file>Image/plug_off.png</file>
+        <file>Image/plug_on.png</file>
+        <file>Image/renewable-energy.png</file>
+        <file>Image/room.png</file>
+        <file>Image/security.png</file>
+        <file>Image/settings.png</file>
+        <file>Image/room1.png</file>
+    </qresource>
+</RCC>
