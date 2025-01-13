@@ -186,9 +186,9 @@ int main(void)
 	if(outputFlag)
 	{
 //		cdsResult = (cdsValue/9999)*100;
-		printf("cds : %d%%, humi: %d.%d temp : %d.%d \r\n", cdsValue, dhtValue.humiData_Int, dhtValue.humiData_Double, dhtValue.tempData_Int, dhtValue.tempData_Double);
+		printf("cds : %d%%, temp : %d.%d°C, humi: %d.%d%%\r\n", cdsValue, dhtValue.tempData_Int, dhtValue.tempData_Double, dhtValue.humiData_Int, dhtValue.humiData_Double);
 		outputFlag = 0;
-		sprintf(sendBuf, "[KEG_QT]SENSOR@%d@%d.%d@%d.%d\n", cdsValue, dhtValue.humiData_Int, dhtValue.humiData_Double, dhtValue.tempData_Int, dhtValue.tempData_Double);
+		sprintf(sendBuf, "[KEG_QT]SENSOR@%d@%d.%d@%d.%d\n", cdsValue, dhtValue.tempData_Int, dhtValue.tempData_Double, dhtValue.humiData_Int, dhtValue.humiData_Double);
 		esp_send_data(sendBuf);
 		printf("%s\r\n", sendBuf);	//Debug
 		memset(sendBuf, 0x0, sizeof(sendBuf));
