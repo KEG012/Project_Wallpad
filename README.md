@@ -193,7 +193,7 @@ Icon=/home/pi/Image/wallpad.png
 
 ## Sensor graph Display
 - STM32에서 받아온 sensor 정보를 Raspberry Pi로 전달하여 이를 graph로 표현.
-- 10초마다 data를 전송. '@'로 data를 구분하여 graph를 그림.
+- 10초마다 data를 전송, '@'로 data를 구분하여 graph를 그림.
 
 <p align="center">
 <img src="./Img/wallpad_graph.gif">
