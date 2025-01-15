@@ -128,7 +128,7 @@ if ((checksum & 0xFF) != data[4]) {
 
 ---
 
-# 작동 이미지 및및 영상
+# 작동 이미지 및 영상
 ## 서버와 STM32F411RE와 통신
 - STM32에서 전송된 CDS 센서 값과 DHT11 값을 "@"로 구분하여 전송.
 - Raspberry Pi에서는 LED를 켜기 위한 명령어 전달 (이후 Light On/Off에서 소개)
