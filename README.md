@@ -22,6 +22,8 @@ QT 프로그램과 STM32F411RE를 사용하여 Raspberry Pi 7" Touch Display에 
 <img src="./Img/Wallpad Real Hardware.jpg">
 </p>
 
+---
+
 # Software 구성
 ## DHT11 센서 구현
 ### Data Start Signal
