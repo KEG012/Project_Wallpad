@@ -128,8 +128,8 @@ if ((checksum & 0xFF) != data[4]) {
 
 ---
 
-## 작동 이미지 및및 영상
-### 서버와 STM32F411RE와 통신
+# 작동 이미지 및및 영상
+## 서버와 STM32F411RE와 통신
 - STM32에서 전송된 CDS 센서 값과 DHT11 값을 "@"로 구분하여 전송.
 - Raspberry Pi에서는 LED를 켜기 위한 명령어 전달 (이후 Light On/Off에서 소개)
 
@@ -137,7 +137,7 @@ if ((checksum & 0xFF) != data[4]) {
 <img src="./Img/server stm tcpip.png">
 </p>
 
-### Wallpad Starting
+## Wallpad Starting
 - Shellscript를 사용하여 서버와 Wallpad가 동시에 켜지도록 구성
     - 서버는 Background에서 동작되도록 구현
 - Shellscript를 사용하여 Desktop에 아이콘 생성성
@@ -175,7 +175,7 @@ Icon=/home/pi/Image/wallpad.png
 <img src="./Img/wallpad_start.gif">
 </p>
 
-### Webcam Starting
+## Webcam Starting
 - 현관문에 사람이 찾아왔을 때 터치 스크린 버튼을 눌러 카메라 송출.
 - 다른 곳에 카메라를 달아 통신으로 화면 송출할 수 있도록 변경 필요.
 
@@ -183,7 +183,7 @@ Icon=/home/pi/Image/wallpad.png
 <img src="./Img/wallpad_webcam.gif">
 </p>
 
-### Light On/Off
+## Light On/Off
 - 내부의 전등을 원격으로 작동시키기 위해 socket으로 메세지 전송
 - LAMP@ON으로 전등 ON, LAMP@OFF로 전등 OFF
 
@@ -191,7 +191,7 @@ Icon=/home/pi/Image/wallpad.png
 <img src="./Img/wallpad_light.gif">
 </p>
 
-### Sensor graph Display
+## Sensor graph Display
 - STM32에서 받아온 sensor 정보를 Raspberry Pi로 전달하여 이를 graph로 표현.
 - 10초마다 data를 전송. '@'로 data를 구분하여 graph를 그림.
 
