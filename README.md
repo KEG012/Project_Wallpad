@@ -112,7 +112,7 @@ CheckSum 계산
 </p>
 
 - CheckSum Data를 통하여 센서 오류를 확인
-- data 값은 습도와 온도 data
+- data[] 값은 습도와 온도 data
 
 ```C
 uint8_t checksum = data[0] + data[1] + data[2] + data[3];
