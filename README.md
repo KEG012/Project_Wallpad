@@ -10,6 +10,8 @@ QT 프로그램과 STM32F411RE를 사용하여 Raspberry Pi 7" Touch Display에 
 <img src="./Img/wallpad.png">
 </p>
 
+---
+
 # Hardware 구성
 - Raspberry Pi와 7" Touch Display는 Flexible Flat Cable을 사용하여 연결.
 - Raspberry Pi와 Webcam은 USB로 연결
